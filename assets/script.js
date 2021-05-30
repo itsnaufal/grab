@@ -31,7 +31,7 @@ generate_btn.addEventListener('click',event => {
 	Order ke: ${data.order}
 	Resto: ${data.resto} 
 	Menu : ${data.menu} 
-	Note : ${data.note};
+	Note : ${data.note};'
 
     console.log(text);
     const text_el = document.querySelector('#text');
