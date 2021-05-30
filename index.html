@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Grab Menu Generator</title>
+</head>
+
+<body>
+    <header>
+        Grab Generator
+    </header>
+    <main>
+        <section id="form">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="order">Order Ke: </label></td>
+                        <td> : <input type="text" id="order" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resto">Restaurant: </label></td>
+                        <td> : <input type="text" id="resto" placeholder="cth: Ayam Bumi"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="menu">Menu: </label></td>
+                        <td> : <input type="text" id="menu" placeholder="cth: Ayam Bumi Bakar"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="note">Note: </label></td>
+                        <td> : <input type="text" id="note" placeholder="cth: Ayamnya Paha"></td>
+                    </tr>
+                </table>
+                <button id="generate-btn">Generate</button>
+            </form>
+        </section>
+        <section id="result-section">
+            <div id="result">
+                <textarea name="" id="text" cols="30" rows="10"></textarea><br>
+                <button id="copy-btn">copy</button>
+                <div id="copy-alert"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
